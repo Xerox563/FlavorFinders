@@ -1,8 +1,0 @@
-!!!!!!!!!!!!!!!!!!!!!  Bundlers  !!!!!!!!!!!!!!!!!!!!!
--> vite , Parcel, Webpack
-create react app -> uses babel and WebPack
-
-!!!!!!!!!!!! Parcel 
--> Its a Package.
--> Its a module of js Files.
--> For managing package we use package manager (use npm/yarn)

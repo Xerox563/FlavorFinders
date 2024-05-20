@@ -1,0 +1,32 @@
+!!!!!!!!!!!!!!!!!!!!!  Bundlers  !!!!!!!!!!!!!!!!!!!!!
+-> vite , Parcel, Webpack
+create react app -> uses babel and WebPack
+
+!!!!!!!!!!!! Parcel 
+-> Its a Package.
+-> Its a module of js Files.
+-> For managing package we use package manager (use npm/yarn)
+npm -> it manages a lot of packages as we want lot of packages in our Project.
+"For Building a react App we need a lot of superPowers which comes from a lot of helper Packages to manage those Packages in our Project we need npm".
+
+-> Dependency means all the Project that our Project needs .
+ -> Dependency is something on which our Project depends 
+  -> Parcel is such a Dependency as we need bundler for optimizing our App.
+
+  Version:
+     -> Sign before Version -> Wil the Version Should Auto Upgrade or not
+    -> ^ -> Carret -> For minor Versions
+    -> ~ -> Tilde -> For major Versions
+    -> else I just want this Version dont need any Updates in our Versions.
+
+   Package-Lock.json
+    -> to Know the Exact Version Of the Library we are using we need Package-Lock. 
+    -> It Locks the version it is the proof of what exact version we use.
+    -> Never Put this in gitignore.Always Put it in github.
+    -> It maintains the hash(Integrity) whatever version is on local should be the same as on Production.
+
+    Node_Modules:
+     -> Its a kind of Database for Your Project.
+     -> We Should put them into .gitignore 
+     -> we never put in git as packagelock.json can generate the Node_Modules.
+     -> We should put parcel.cache in our gitignore.

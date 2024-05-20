@@ -1,0 +1,5 @@
+// Note: Anything Which can be generated on Server should be put inside gitignore.
+
+node_modules/
+dist/
+.cache

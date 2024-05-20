@@ -1,0 +1,30 @@
+{
+  "name": "flavourfinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xerox563/FlavorFinders.git"
+  },
+  "author": "Amit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xerox563/FlavorFinders/issues"
+  },
+  "homepage": "https://github.com/Xerox563/FlavorFinders#readme",
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

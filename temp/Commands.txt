@@ -1,0 +1,24 @@
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/username/repository-name.git
+git push -u origin main/master
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+If you want to remove the remote origin from your local Git repository,
+  git remote remove origin
+
+
+
+!!!!!!!!!!!!!!!!!!!!  Parcel Commands !!!!!!!!!!!!!!!!!!!!!
+-> npm install -D parcel // installing parcel as Dev Dependency
+-> npm install --save-dev parcel // installing parcel as Dev Dependency
+
+-> npm install  parcel // installing parcel as Production Dependency
+-> npm i react react-Dom
+
+-> npx parcel entryPoint (index.html)  (execute parcel using npm)  // Igniting App
+-> npx parcel index.html --https  // to test on https
+->
+
