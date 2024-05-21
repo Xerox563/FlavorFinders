@@ -1,4 +1,3 @@
-// imported react and reactdom from nodemodule folder
 import React from "react";
 import ReactDOM from "react-dom/client";
 
@@ -11,7 +10,7 @@ const Header = () => {
       {heading}
       <h1>Lets Build Some Awesome Stuff...</h1>
     </div>
-  );
+  );mn
 };
 var str = "In Love With Coding and Development";
 const Footer = function () {

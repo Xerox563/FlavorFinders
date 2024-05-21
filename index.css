@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+}
+
+.nav-logo {
+  color: white;
+  font-size: 2rem;
+}
+
+.nav-items {
+  display: flex;
+  font-size: 1.3rem;
+}
+
+.nav-items ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-items li {
+  margin: 0 20px;
+}
+
+.nav-items li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-items li:hover {
+  background-color: #111;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .nav-items ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-items li {
+    margin: 10px 0;
+  }
+}
+
+/* Card CSS */
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: 300px;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.card h2 {
+  font-size: 24px;
+  color: #333;
+  margin: 15px 0 10px;
+}
+
+.card h3 {
+  font-size: 18px;
+  color: #777;
+  margin: 0 0 10px;
+}
+
+.card h4 {
+  font-size: 16px;
+  color: #555;
+  margin: 0;
+}
+
+.card h3::before {
+  content: "\1F354"; /* Burger emoji */
+  margin-right: 8px;
+}
